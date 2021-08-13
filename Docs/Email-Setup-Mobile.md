@@ -20,7 +20,6 @@ Username: | 	**Your whole email address.**
 Password: | **Your mail password.**
 
 
-![image.png](/.attachments/image-df284ac9-682f-4c27-bb91-7d85c4316e82.png)
 <img style="max-width:200px" src="/.attachments/image-df284ac9-682f-4c27-bb91-7d85c4316e82.png" alt="image.png" />
 
 
