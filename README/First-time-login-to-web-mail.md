@@ -6,6 +6,8 @@ Webmail lets you check your email from any web browser. Your webmail site is:
 [box.infinityarc.net/mail](https://box.infinityarc.net/mail).
 
 Your **username** is your **whole email address**.
+![image of login]
+('./src/images/login.png')
 
 # Changing your password
 
@@ -23,6 +25,9 @@ While in webmail, click on:
     *Confirm your new password.
 
     *Click on save.
+
+![image of settings]
+('./src/images/password.png')
 
 # Email Setup
 
