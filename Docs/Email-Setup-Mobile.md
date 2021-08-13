@@ -6,7 +6,7 @@ iOS and OS X only: Open [this configuration link](https://box.infinityarc.net/ma
 
 ## Manual configuration
 
-<style>img{max-width:200px !important}</style>
+<style>img{width:200px !important}</style>
 
 Use the following settings when you set up your email on your phone:
 
