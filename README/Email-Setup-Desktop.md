@@ -19,7 +19,7 @@ SMTP Security | SSL or TLS
 Username: | 	**Your whole email address.**
 Password: | **Your mail password.**
 
-![image.png](/.attachments/image-fed93d94-d62a-4333-b827-fdd741163c54.png)
+![image.png](/.attachments/image-45013d57-d6f2-4a79-a10e-0050c1c0bf8f.png)
 
 ##Exchange/ActiveSync settings
 
