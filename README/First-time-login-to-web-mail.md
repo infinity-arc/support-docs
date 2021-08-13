@@ -9,7 +9,7 @@ Your **username** is your **whole email address**.
 
 # Changing your password
 
-Please followe these instructions to change your password.
+Please follow these instructions to change your password.
 While in webmail, click on:
 
 *Settings.
