@@ -19,7 +19,7 @@ SMTP Security | SSL or TLS
 Username: | 	**Your whole email address.**
 Password: | **Your mail password.**
 
-![image.png](/.attachments/image-5537dd98-a377-4ed3-a830-7c633086ed11.png)
+![image.png](/.attachments/image-df284ac9-682f-4c27-bb91-7d85c4316e82.png)
 
 
 
