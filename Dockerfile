@@ -1,7 +1,7 @@
 FROM node:14-alpine
 
 WORKDIR /app
-RUN npm i docz -g
+# RUN npm i docz -g
 
 COPY package*.json ./
 RUN npm ci
