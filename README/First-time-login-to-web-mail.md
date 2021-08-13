@@ -12,17 +12,19 @@ Your **username** is your **whole email address**.
 Please followe these instructions to change your password.
 While in webmail, click on:
 
-1.Settings.
+*Settings.
 
-1.Password.
+*Password.
 
-    1.Enter your current password.
+    *Enter your current password.
 
-    1.Enter your new password.
+    *Enter your new password.
 
-    1.Confirm your new password.
+    *Confirm your new password.
 
-    1.Click on save.
+    *Click on save.
+
+# Email Setup
 
 ## Mobile/Desktop apps
 
