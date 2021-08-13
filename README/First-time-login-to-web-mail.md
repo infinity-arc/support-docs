@@ -54,10 +54,10 @@ Password: | **Your mail password.**
 
 On Outlook 2007 or later on Windows 7 and later, you may set up your mail as an Exchange or ActiveSync server. However, we’ve found this to be more buggy than using IMAP as described above. If you encounter any problems, please use the manual settings above.
 
-----------
-**Server**	box.infinityarc.net
-----------
-**Options**	Secure Connection
+Option | Value
+---------- | ---------
+**Server** |	box.infinityarc.net
+**Options** |	Secure Connection
 
 Your device should also provide a contacts list and calendar that syncs to this box when you use this method.
 
