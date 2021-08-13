@@ -7,13 +7,30 @@ Webmail lets you check your email from any web browser. Your webmail site is:
 
 Your **username** is your **whole email address**.
 
-# Mobile/Desktop apps
+# Changing your password
 
-## Automatic configuration
+Please followe these instructions to change your password.
+While in webmail, click on:
+
+1.Settings.
+
+1.Password.
+
+    1.Enter your current password.
+
+    1.Enter your new password.
+
+    1.Confirm your new password.
+
+    1.Click on save.
+
+## Mobile/Desktop apps
+
+### Automatic configuration
 
 iOS and OS X only: Open [this configuration link](https://box.infinityarc.net/mailinabox.mobileconfig) on your iOS device or on your Mac desktop to easily set up mail (IMAP/SMTP), Contacts, and Calendar.
 
-## Manual configuration
+### Manual configuration
 
 Use the following settings when you set up your email on your phone, desktop, or other device:
 
