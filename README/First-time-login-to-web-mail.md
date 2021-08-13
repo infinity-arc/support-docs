@@ -6,28 +6,26 @@ Webmail lets you check your email from any web browser. Your webmail site is:
 [box.infinityarc.net/mail](https://box.infinityarc.net/mail).
 
 Your **username** is your **whole email address**.
-![image of login]
-('./src/images/login.png')
 
+![image.png](/.attachments/image-3109f6cc-0035-4be4-8b1b-d50ff1747106.png)
 # Changing your password
 
 Please follow these instructions to change your password.
 While in webmail, click on:
 
-*Settings.
+* Settings.
 
-*Password.
+* Password.
 
-    *Enter your current password.
+    * Enter your current password.
 
-    *Enter your new password.
+    * Enter your new password.
 
-    *Confirm your new password.
+    * Confirm your new password.
 
-    *Click on save.
+    * Click on save.
 
-![image of settings]
-('./src/images/password.png')
+![image.png](/.attachments/image-532d02cd-2bec-4605-bc8a-d55d0e0f736e.png)
 
 # Email Setup
 
@@ -51,4 +49,16 @@ SMTP Port | 465
 SMTP Security | SSL or TLS
 Username: | 	**Your whole email address.**
 Password: | **Your mail password.**
+
+##Exchange/ActiveSync settings
+
+On Outlook 2007 or later on Windows 7 and later, you may set up your mail as an Exchange or ActiveSync server. However, we’ve found this to be more buggy than using IMAP as described above. If you encounter any problems, please use the manual settings above.
+
+----------
+**Server**	box.infinityarc.net
+----------
+**Options**	Secure Connection
+
+Your device should also provide a contacts list and calendar that syncs to this box when you use this method.
+
 
