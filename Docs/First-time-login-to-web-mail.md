@@ -1,10 +1,30 @@
-# Login to webmail
+# Introduction to webmail
 
 
-Webmail lets you check your email from any web browser. Your webmail site is:
+Webmail lets you check your email from any web browser.
+
+The webmail portal lets you do the following:
+
+* Check your inbox.
+* Send emails.
+* Add and delete contacts.
+* Change webmail theme.
+* Change the way mail is displayed, including:
+    * Changing your mailbox view.
+    * Changing the way you compose messages.
+    * Changing Special folders, such as Spam, Deleted etc.
+    * Change your contacts Default address book etc.
+
+## Logging in to your webmail for the first time
+
+Your webmail site is:
 
 [box.infinityarc.net/mail](https://box.infinityarc.net/mail).
 
+###Please note:
+
 Your **username** is your **whole email address**.
+
+Your default **password** is **Welcome@1**.
 
 ![image.png](/.attachments/image-3109f6cc-0035-4be4-8b1b-d50ff1747106.png)
