@@ -2,9 +2,11 @@
 
 In this guide we will walk you through setting up you email address on mobile devices.
 
-First select a email application and download it from your respective app store. We recommend Outlook, it if free on mobile devices for personal use.
+First select an email application and download it from your respective app store. We recommend Outlook, it if free on mobile devices for personal use.
 
-Open up the app and click on add account. Continue reading for further instructions.
+Open up the app and click on add account. 
+
+Continue reading for further instructions.
 
 # Email configuration
 
@@ -42,7 +44,9 @@ Password: | **Your mail password.**
 
 *Above is an example of the manual settings used for setting up a new account using Outlook for mobile.*
 
-Once your account is added successfully, you are ready to send and receive emails on your device.
--
+**Once your account is added successfully, you are ready to send and receive emails on your device.**
+
+Check out [Email setup on desktop]() to set up your account on your desktop.
+
 
 
