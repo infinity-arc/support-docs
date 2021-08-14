@@ -46,6 +46,7 @@ On Outlook 2007 or later and Windows 7 aor later, you may set up your mail as an
 
 Your device should also provide a contacts list and calendar that syncs to this box when you use this method.
 
-Once your account is added successfully, you are ready to send and receive emails.
 
+Once your account is added successfully, you are ready to send and receive emails.
+-
 
