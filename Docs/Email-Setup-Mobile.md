@@ -1,4 +1,4 @@
-# Setting up you email on mobile devices
+# Setting up your email on mobile devices
 
 In this guide we wil walk you through setting up you email address on mobile devices.
 
