@@ -1,4 +1,8 @@
-# Changing your password
+
+# First Time Sign In
+
+### Important!!
+> **When you sign in for the first time it is crucial to reset your password since it is a password that has been sent to you by the administrator.**
 
 Please follow these instructions to change your password.
 While in webmail, click on:

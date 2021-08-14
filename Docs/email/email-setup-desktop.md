@@ -1,4 +1,4 @@
-#Desktop apps
+# Desktop apps
 
 ## Automatic configuration
 
