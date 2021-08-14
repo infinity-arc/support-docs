@@ -1,10 +1,12 @@
 # Setting up your email on mobile devices
 
-In this guide we wil walk you through setting up you email address on mobile devices.
+In this guide we will walk you through setting up you email address on mobile devices.
 
 First select a email application and download it from your respective app store. We recommend Outlook, it if free on mobile devices for personal use.
 
 Open up the app and click on add account. Continue reading for further instructions.
+
+# Email configuration
 
 ## Automatic configuration
 
