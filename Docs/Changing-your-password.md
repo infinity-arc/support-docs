@@ -41,5 +41,5 @@ While in webmail, click on:
 
 *Always keep your passwords safe and never give it out to anybody.*
 
-Now that your password is changed and secure, head over to []() to set up your email on your mobile device.
+Now that your password is changed and secure, head over to [Email setup on mobile](https://dev.azure.com/infinityarc/Library/_wiki/wikis/Support-pages/7/Email-Setup-on-Mobile?anchor=setting-up-your-email-on-mobile-devices) to set up your email on your mobile device.
 -
