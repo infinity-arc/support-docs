@@ -1,7 +1,10 @@
 # Introduction to webmail
 
+##What is webmail?
 
-Webmail lets you check your email from any web browser.
+Webmail is an online email portal which allows you check your email from any web browser.
+
+##What does webmail do?
 
 The webmail portal lets you do the following:
 
@@ -28,3 +31,5 @@ Your **username** is your **whole email address**.
 Your default **password** is **Welcome@1**.
 
 ![image.png](/.attachments/image-3109f6cc-0035-4be4-8b1b-d50ff1747106.png)
+
+After logging in, head over to the /changing your password/ to continue.
