@@ -1,6 +1,22 @@
 # Changing your password
 
-Please follow these instructions to change your password.
+This section provides you with instructions to change your email password.
+
+It is recommended to follow these guides when picking a password: 
+
+* Your password should be:
+  * At least 8 characters—the more characters, the better.
+  * A mixture of both uppercase and lowercase letters.
+  * A mixture of letters and numbers.
+  * Inclusion of at least one special character, e.g., ! @ # ? ].
+* Always avoid using obvious personal information.
+* Do no reuse passwords.
+
+## How to change your password on webmail
+
+
+Follow these instructions to change your password.
+
 While in webmail, click on:
 
 * Settings.
