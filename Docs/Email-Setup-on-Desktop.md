@@ -4,7 +4,9 @@ In this guide we will walk you through setting up you email address on desktop a
 
 First, open up your email application. Both Mac and Windows have built in applications you can use. For this guide, we used Outlook as an example.
 
-Open up the app and click on add account. Continue reading for further instructions.
+Open up the app and click on add account. 
+
+Continue reading for further instructions.
 
 # Email configuration
 
@@ -47,6 +49,6 @@ On Outlook 2007 or later and Windows 7 aor later, you may set up your mail as an
 Your device should also provide a contacts list and calendar that syncs to this box when you use this method.
 
 
-Once your account is added successfully, you are ready to send and receive emails.
--
+**Once your account is added successfully, you are ready to send and receive emails.**
+
 
