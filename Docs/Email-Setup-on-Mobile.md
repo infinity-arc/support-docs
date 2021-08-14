@@ -46,7 +46,7 @@ Password: | **Your mail password.**
 
 **Once your account is added successfully, you are ready to send and receive emails on your device.**
 
-Check out [Email setup on desktop]() to set up your account on your desktop.
+Check out [Email setup on desktop](https://dev.azure.com/infinityarc/Library/_wiki/wikis/Support-pages/8/Email-Setup-on-Desktop?anchor=setting-up-your-email-on-desktop-applications) to set up your account on your desktop.
 
 
 
