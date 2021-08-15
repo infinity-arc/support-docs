@@ -12,7 +12,6 @@ const withAutoNavBuilder = require(path.resolve('autonav'));
 module.exports = withAutoNavBuilder({
 
   base: "/",
-  public: path.resolve('.attachments'),
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -32,6 +31,7 @@ module.exports = withAutoNavBuilder({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+  theme: "book",
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.

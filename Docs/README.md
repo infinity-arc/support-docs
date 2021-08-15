@@ -1,16 +1,11 @@
 ---
 home: true
-heroImage: 
-tagline: IA Serivce Regerence
-actionText: Quick Start →
-actionLink: /guide/
+heroImage: '/ia-full-logo.png'
+tagline: IA Service Reference
+actionText: Email
+actionLink: /email/
 features:
-- title: Email
-  actionLink: '/email/'
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Infinity Arc with ❤️
+- title: Creative
+- title: Quality
+- title: Solutions
 ---
