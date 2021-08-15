@@ -1,4 +1,4 @@
-# Setting up your email on desktop applications
+# Device Setup
 
 In this guide we will walk you through setting up you email address on desktop applications.
 

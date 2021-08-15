@@ -1,3 +1,8 @@
+---
+
+---
+
+# Change webmail password
 
 ## How do I make a strong password?
 
@@ -30,7 +35,7 @@ While in webmail, click on:
 
     * Click on save.
 
-![image.png](/.attachments/image-532d02cd-2bec-4605-bc8a-d55d0e0f736e.png)
+![image.png](/image-532d02cd-2bec-4605-bc8a-d55d0e0f736e.png)
 
 *Always keep your passwords safe and never give it out to anybody.*
 

@@ -82,8 +82,14 @@ function buildSideNav(conf) {
                 console.log('sideNavChildren: ', sideNavChildren);
                 console.log('mergedWithOrders: ', mergedWithOrders);
             }
+            
+            
 
-            nav.push({ text: item.toLocaleUpperCase(), link: sectionLink }) // pushes a new top nav item onto the config
+            if(sectionLink.toLowerCase === 'home') {
+                nav.shift({ text: item.toLocaleUpperCase(), link: sectionLink }) // pushes a new top nav item onto the config
+            } else {
+                nav.push({ text: item.toLocaleUpperCase(), link: sectionLink }) // pushes a new top nav item onto the config
+            }
 
             sideBar[sectionLink] = [ // Add the side nav configuration for section
                 {

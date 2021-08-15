@@ -1,16 +1,14 @@
-
-
-(function () {
-  // require('fs').writeFileSync(require('path').join(__dirname, 'node_env',''))
-})()
-
 const fs = require('fs');
 const path = require('path');
-// const excludeDirs = ['.vuepress', 'src', 'node_modules', 'config']
-// const docsDir = path.join(__dirname, '../');
-console.log(path.resolve());
 const { description } = require(path.resolve('package.json'));
 const withAutoNavBuilder = require(path.resolve('autonav'));
+
+(function () {
+})()
+
+// const exc[ludeDirs = ['.vuepress', 'src', 'node_modules', 'config']
+// const docsDir = path.join(__dirname, '../');
+
 module.exports = withAutoNavBuilder({
 
   base: "/",
