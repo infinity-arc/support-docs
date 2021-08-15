@@ -21,7 +21,7 @@ Be sure to select other when prompted what type of account to add.
 
 
 
-<style>img{width:200px!important;}</style>
+<!-- <style>img{width:200px!important;}</style> -->
 
 Use the following settings when you set up your email on your phone:
 

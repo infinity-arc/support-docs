@@ -1,17 +1,24 @@
-const { description } = require('../package')
 
-// const fs = require('fs');
-// const path = require('path');
+
+(function () {
+  // require('fs').writeFileSync(require('path').join(__dirname, 'node_env',''))
+})()
+
+const fs = require('fs');
+const path = require('path');
 // const excludeDirs = ['.vuepress', 'src', 'node_modules', 'config']
 // const docsDir = path.join(__dirname, '../');
-
-const withAutoNavBuilder  = require('autoNavBuilder');
+console.log(path.resolve());
+const { description } = require(path.resolve('package.json'));
+const withAutoNavBuilder = require(path.resolve('autonav'));
 module.exports = withAutoNavBuilder({
 
+  base: "/",
+  public: path.resolve('.attachments'),
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Infinity Arc',
+  title: 'Support Pages',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -39,6 +46,7 @@ module.exports = withAutoNavBuilder({
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    logo: 'https://cdn.softwarecraft.co.za/assets/ia/ia-3d-black075.png',
     nav: [
       // ...makeNav(),
       // {
@@ -58,7 +66,6 @@ module.exports = withAutoNavBuilder({
         link: 'https://policies.infinityarc.net/privac'
       }
     ],
-    // sidebar: makeSideBar()
     // sidebar: {
     //   '/guide/': [
     //     {
@@ -83,40 +90,4 @@ module.exports = withAutoNavBuilder({
     '@vuepress/plugin-medium-zoom',
   ]
 })
-
-
-
-// function isDir(dirOrFile) {
-//   return fs.lstatSync(path.join(docsDir, dirOrFile)).isDirectory();
-// }
-
-// function withDocumentStructire(conf) {
-//   const nav = [];
-//   const sideBar = {};
-//   const dir = fs.readdirSync(docsDir);
-
-//   dir.forEach(item => {
-//     if (!excludeDirs.includes(item) && isDir(item)) {
-//       const sectionLink = `/${item.toLocaleLowerCase()}/`;
-//       nav.push({ text: item.toLocaleUpperCase(), link: sectionLink })
-
-//       sideBar[sectionLink] = [{
-//         title: item.toLocaleUpperCase(),
-//         children: fs.readdirSync(path.join(docsDir, item))
-//         .filter(file => {
-//           console.log('file: ', file);
-//           return !['.order','readme.md'].includes(file.toLocaleLowerCase())
-//         })
-//       }]
-//     }
-//   })
-//   console.log('nav: ', nav);
-//   console.log('sideBar: ', sideBar);
-//   // process.exit();
-
-//   conf.themeConfig.nav = [...nav, ...conf.themeConfig.nav];
-//   conf.themeConfig.sidebar = sideBar;
-//   fs.writeFileSync('./config.json', JSON.stringify(conf), 'utf8');
-//   return conf;
-// }
 

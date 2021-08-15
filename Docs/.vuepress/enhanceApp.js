@@ -10,16 +10,44 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-  logEnhanceMentAffordances(Vue,options,router,siteData)
+  logEnhanceMentAffordances(Vue, options, router, siteData)
   // ...apply enhancements for the site.
-  
+  setPageFavicon();
+
+
+
+
 }
 
-function logEnhanceMentAffordances( Vue, options, router, siteData) {
+/**
+ * @description Set favicon
+ * @returns void
+ */
+
+function setPageFavicon() {
+  // create new link element and assign attribites with object terraforming
+  const
+    rel = "icon",
+    href = "https://cdn.softwarecraft.co.za/assets/ia/IA_shortlogo_white_blackbg-01x.png",
+    type = 'image/png',
+    faviconElement = Object.assign(document.createElement('link'), { rel, href, type });
+  return document.head.prepend(faviconElement);
+}
+
+/**
+ * @description log enhancement params when environment is dev
+ * @param {*} Vue 
+ * @param {*} options 
+ * @param {*} router 
+ * @param {*} siteData 
+ * @returns void
+ */
+function logEnhanceMentAffordances(Vue, options, router, siteData) {
   console.log('ENHANCEMENTS START')
   console.log(Vue);
   console.log(options)
   console.log(router)
   console.log(siteData)
   console.log('ENHANCEMENTS END')
+  return;
 }

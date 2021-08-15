@@ -6,6 +6,7 @@ actionText: Quick Start →
 actionLink: /guide/
 features:
 - title: Email
+  actionLink: '/email/'
   details: Feature 1 Description
 - title: Feature 2 Title
   details: Feature 2 Description
