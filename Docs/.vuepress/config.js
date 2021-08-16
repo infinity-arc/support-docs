@@ -3,14 +3,11 @@ const path = require('path');
 const { description } = require(path.resolve('package.json'));
 const withAutoNavBuilder = require(path.resolve('autonav'));
 
-(function () {
-})()
-
 // const exc[ludeDirs = ['.vuepress', 'src', 'node_modules', 'config']
 // const docsDir = path.join(__dirname, '../');
 
 module.exports = withAutoNavBuilder({
-
+  docsDir: 'Docs',
   base: "/",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
