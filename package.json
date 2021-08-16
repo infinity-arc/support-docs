@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "applicationinsights": "^2.1.5",
     "auto-nav-builder": "file:autonav"
   },
   "devDependencies": {
