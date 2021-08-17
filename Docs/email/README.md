@@ -2,7 +2,7 @@
 
 If Infinity Arc has registered your domain and you are looking to get started with email you are now in the right place. Please click the link below.
 
-- [Siging in for the first time please](./first-time-signin) 
+- [Sign-in in for the first time please](./first-time-signin) 
 
 Support pages on how to use Infinity Arc Webmail and instructions on how to configure your devices with your domain email hosted by Infinity Arc.
 
