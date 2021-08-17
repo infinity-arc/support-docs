@@ -12,12 +12,10 @@ In this guide we will be walking you through how to log in, change your password
 
 Please follow these steps to setup and configure your email address on your mobile and dektop applications.
 
-![image.png](/image-d37b6191-c976-4e57-99c3-56b561a2e73e.png)https://infinityarc.net
+![image.png](/image-d37b6191-c976-4e57-99c3-56b561a2e73e.png)
 
 
-TABLE OF CONTENT
-----------------
-[[toc]]
+
 
 
 
