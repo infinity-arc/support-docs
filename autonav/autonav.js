@@ -21,13 +21,11 @@ function doNavConfig() {
     return docsDir.filter(docSection=> topNavIgnore.includes)
 }
 
-
 function withAutoNavigation(vuepressConfig){
     const 
         sidebar = {},
         nav = [];
-    
-
+        
     vuepressConfig.sidebar = sideNav;
     vuepressConfig.nav = topNav;
     return Object.assign(vuepressConfig,{themeConfig:{sidebar,nav}})

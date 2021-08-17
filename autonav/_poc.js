@@ -83,8 +83,6 @@ function buildSideNav(conf) {
                 console.log('mergedWithOrders: ', mergedWithOrders);
             }
             
-            
-
             if(sectionLink.toLowerCase === 'home') {
                 nav.shift({ text: item.toLocaleUpperCase(), link: sectionLink }) // pushes a new top nav item onto the config
             } else {
