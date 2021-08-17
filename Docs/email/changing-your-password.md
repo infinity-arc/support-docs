@@ -31,8 +31,8 @@ While in webmail, click on:
 
     * Click on save.
 
-![image.png](/.attachements/image-532d02cd-2bec-4605-bc8a-d55d0e0f736e.png)
+![image.png](/image-532d02cd-2bec-4605-bc8a-d55d0e0f736e.png)
 
 *Always keep your passwords safe and never give it out to anybody.*
 
-Now that your password is changed and secure, head over to [Email setup on mobile](https://dev.azure.com/infinityarc/Library/_wiki/wikis/Support-pages/7/Email-Setup-on-Mobile?anchor=setting-up-your-email-on-mobile-devices) to set up your email on your mobile device.
+Now that your password is changed and secure, head over to [Email setup on mobile](./macos-and-mobile-setup) to set up your email on your mobile device.
