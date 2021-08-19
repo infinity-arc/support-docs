@@ -11,12 +11,14 @@
   "scripts": {
     "prestart": "node ./utils/move-assets.js",
     "start": "vuepress dev Docs",
-    "build": "NODE_ENV=production;vuepress build Docs"
+    "build": "NODE_ENV=production;vuepress build Docs",
+    "serve":"NODE_ENV=production;node server"
   },
   "license": "MIT",
   "dependencies": {
     "applicationinsights": "^2.1.5",
-    "auto-nav-builder": "file:autonav"
+    "auto-nav-builder": "file:autonav",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "vuepress": "^1.8.2",
