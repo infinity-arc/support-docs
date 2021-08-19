@@ -12,16 +12,18 @@ export default ({
 }) => {
   logEnhanceMentAffordances(Vue, options, router, siteData)
   // ...apply enhancements for the site.
-  window.onload = function(){
-    console.log(this);
-    setPageFavicon();
+
+  try {
+    window.onload = function () {
+      console.log(this);
+      setPageFavicon();
+    }
+  } catch (error) {
+    console.log('Gracefully')
+    console.log(error.message);
   }
-  
-
-
-
-
 }
+
 
 /**
  * @description Set favicon

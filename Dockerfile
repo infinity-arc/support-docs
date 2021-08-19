@@ -1,11 +1,11 @@
 FROM node:14-alpine
 
 WORKDIR /app
-# RUN npm i docz -g
 
 COPY package*.json ./
 RUN npm ci
+COPY . .
 
 RUN npm run build
-
-RUN npm run serve
+WORKDIR /app
+CMD npm run serve

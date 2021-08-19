@@ -1,0 +1,10 @@
+
+steps:
+  env: 
+    - 'BUILD=$BUILD_ID'
+    - 'IMAGENAME=support-docs'
+    - 'PROJECT=support-docs'
+- name: 'gcr.io/cloud-builders/docker '
+  args: ['build', '-t', 'gcr.io/$PROJECT/$IMAGENAME:latest', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT/$IMAGENAME:$BUILD', '.']
