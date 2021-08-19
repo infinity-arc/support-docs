@@ -12,7 +12,7 @@
     "prestart": "node ./utils/move-assets.js",
     "start": "vuepress dev src",
     "build:vuepress": "NODE_ENV=production;vuepress build src",
-    "build": "node build",
+    "build": "NODE_ENV=production;vuepress build src",
     "serve":"NODE_ENV=production;node server"
   },
   "license": "MIT",
