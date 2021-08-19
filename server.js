@@ -12,7 +12,7 @@ app
     console.log(res.statusCode, '-', req.path);
     next();
 })
-.use('/',express.static('./Docs/.vuepress/dist'))
+.use('/',express.static('./docs'))
 .listen(port,()=>{
     console.log('Doc server running', host, ':',port);
 });
