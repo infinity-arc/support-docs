@@ -13,7 +13,8 @@
     "start": "vuepress dev src",
     "build:vuepress": "NODE_ENV=production;vuepress build src",
     "build": "NODE_ENV=production;vuepress build src",
-    "serve":"NODE_ENV=production;node server"
+    "serve":"NODE_ENV=production;node server",
+    "submit": "gcloud builds submit"
   },
   "license": "MIT",
   "dependencies": {
