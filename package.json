@@ -12,13 +12,13 @@
     "prestart": "node ./utils/move-assets.js",
     "start": "vuepress dev src",
     "build:vuepress": "NODE_ENV=production;vuepress build src",
-    "build": "node build",
-    "serve":"NODE_ENV=production;node server"
+    "build": "NODE_ENV=production;vuepress build src",
+    "serve":"NODE_ENV=production;node server",
+    "submit": "gcloud builds submit"
   },
   "license": "MIT",
   "dependencies": {
     "applicationinsights": "^2.1.5",
-    "auto-nav-builder": "file:autonav",
     "express": "^4.17.1"
   },
   "devDependencies": {

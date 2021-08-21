@@ -1,10 +1,11 @@
 # Cloud build yaml
+
 steps:
-  env: 
-    - 'BUILD=$BUILD_ID'
-    - 'IMAGENAME=support-docs'
-    - 'PROJECT=support-docs'
-- name: 'gcr.io/cloud-builders/docker '
-  args: ['build', '-t', 'gcr.io/$PROJECT/$IMAGENAME:latest', '.']
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT/$IMAGENAME:$BUILD', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/infinity-arc/support-docs:latest', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['tag', 'gcr.io/infinity-arc/support-docs:latest','gcr.io/infinity-arc/support-docs:$BUILD_ID']
+images: [
+  'gcr.io/infinity-arc/support-docs:latest',
+  'gcr.io/infinity-arc/support-docs:$BUILD_ID'
+]

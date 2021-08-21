@@ -3,7 +3,7 @@ FROM node:14-alpine
 # Set Working Directory
 WORKDIR /app
 # Copy pack files
-COPY package*.json ./
+COPY package.json package-lock.json ./
 # Run clean install
 RUN npm ci
 # Copy all rest

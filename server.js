@@ -12,7 +12,8 @@ app
     console.log(res.statusCode, '-', req.path);
     next();
 })
-.use('/',express.static('./docs'))
+.use('/',express.static('docs'))
+// .use('/',express.static('./src/.vuepress/dist'))
 .listen(port,()=>{
     console.log('Doc server running', host, ':',port);
 });

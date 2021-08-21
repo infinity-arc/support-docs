@@ -19,7 +19,7 @@ function dir(dir) {
 }
 
 function readIgnoreFile(ignoreFile){
-    return read(join(__dirname, '../',ignoreFile)).split('\n').filter(ignoreFile=> !ignoreFile==='');
+    return file(join(__dirname, '../',ignoreFile)).split('\n').filter(ignoreFile=> !ignoreFile==='');
 }
 
 function join(...pathSegments) {
