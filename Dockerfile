@@ -13,4 +13,5 @@ RUN npm run build
 # Confirm dir set 
 WORKDIR /app
 # Start serving
+EXPOSE 8080
 CMD npm run serve
