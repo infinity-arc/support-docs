@@ -11,7 +11,9 @@ function assignTopNavContent(){
     docsDir = docsDirContent;
 }
 
-function assignSideNavContent()
+function assignSideNavContent() {
+    
+}
 
 function doSideBarConfig() {
 
