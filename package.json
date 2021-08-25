@@ -11,13 +11,15 @@
   "scripts": {
     "prestart": "node ./utils/move-assets.js",
     "start": "vuepress dev src",
-    "build:vuepress": "NODE_ENV=production;vuepress build src",
     "build": "NODE_ENV=production;vuepress build src",
-    "serve":"NODE_ENV=production;node server",
-    "submit": "gcloud builds submit"
+    "serve": "NODE_ENV=production;node server",
+    "submit": "gcloud builds submit",
+    "copy-files":"cp -r ./src/.vuepress/dist/* ./docs/"
   },
   "license": "MIT",
   "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
     "applicationinsights": "^2.1.5",
     "express": "^4.17.1"
   },
