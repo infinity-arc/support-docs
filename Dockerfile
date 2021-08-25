@@ -3,16 +3,15 @@ FROM node:14-alpine
 # Set Working Directory
 WORKDIR /app
 # Copy pack files
-COPY package.json package-lock.json ./
+COPY package.json yarn.lock ./
 # Run clean install
-RUN npm ci
+RUN yarn install
 # Copy all rest
 COPY . .
 # Run build
-RUN npm run build
+RUN yarn run build
+RUN ls -al
 # Confirm dir set 
-WORKDIR /app
-COPY ./src/vuepress/dist ./docs
 # Start serving
 EXPOSE 8080
-CMD npm run serve
+CMD yarn run serve
