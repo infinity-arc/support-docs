@@ -1,4 +1,8 @@
-# Device Setup
+---
+title: 4. Email on Windows
+---
+
+# Windows Setup
 
 In this guide we will walk you through setting up you email address on email client applications like [Microsoft Outlook](https://www.microsoft.com/en-za/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook) and [Thuderbird](https://download.mozilla.org/?product=thunderbird-91.0-SSL&os=osx&lang=en-GB).
 
