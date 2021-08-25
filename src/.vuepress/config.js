@@ -43,7 +43,6 @@ const config = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-
     lastUpdated: true,
     searchPlaceholder: 'Search for something',
     logo: 'https://cdn.softwarecraft.co.za/assets/ia/ia-3d-black075.png',
