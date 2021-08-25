@@ -6,7 +6,10 @@ const withAutoNavBuilder = require(path.resolve('autonav'));
 // const exc[ludeDirs = ['.vuepress', 'src', 'node_modules', 'config']
 // const docsDir = path.join(__dirname, '../');
 
-module.exports = withAutoNavBuilder({
+const withAutoNav = false;
+
+
+const config = {
   docsDir: 'Docs',
   base: "/",
   /**
@@ -40,18 +43,27 @@ module.exports = withAutoNavBuilder({
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+
+    lastUpdated: true,
+    searchPlaceholder: 'Search for something',
     logo: 'https://cdn.softwarecraft.co.za/assets/ia/ia-3d-black075.png',
     nav: [
-      // ...makeNav(),
-      // {
-      //   text: 'Index',
-      //   link: '/guide/',
-      // },
-      // {
-      //   text: 'Email',
-      //   link: '/email/'
-      // },
+      {
+        text: 'Welcome',
+        link: '/welcome/'
+      },
+      {
+        text: 'Email',
+        link: '/email/'
+      },
+      {
+        text: 'Next Cloud',
+        link: '/next-cloud/'
+      },
+      {
+        text: 'Contact Us',
+        link: '/contact-us/'
+      },
       {
         text: 'Website',
         link: 'http://www.infinityarc.net'
@@ -61,7 +73,15 @@ module.exports = withAutoNavBuilder({
         link: 'https://policies.infinityarc.net/privac'
       }
     ],
-    // sidebar: {
+    sidebar: {
+      '/email/': [
+        '/email/',
+        '/email/first-time-signin.html',
+        '/email/changing-your-password.html',
+        '/email/macos-and-mobile-setup.html',
+        '/email/about-is-webmail.html',
+        '/email/windows-desktop-setup.html' /* /bar/four.html */
+      ]
     //   '/guide/': [
     //     {
     //       title: 'Guide',
@@ -73,7 +93,7 @@ module.exports = withAutoNavBuilder({
     //     }
     //   ],
     //   '/email/': [{title: 'Email' , children:['changing-your-password.md']}]
-    // },
+    }
 
   },
 
@@ -83,6 +103,10 @@ module.exports = withAutoNavBuilder({
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-smooth-scroll'
   ]
-})
+}
+
+
+module.exports = withAutoNav ? withAutoNavBuilder(config) : config;
 
