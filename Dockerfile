@@ -12,6 +12,7 @@ COPY . .
 RUN npm run build
 # Confirm dir set 
 WORKDIR /app
+COPY ./src/vuepress/dist ./docs
 # Start serving
 EXPOSE 8080
 CMD npm run serve
