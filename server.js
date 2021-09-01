@@ -2,7 +2,7 @@
  * Description web server with express.js
  */
 
-const port = process.env.PORT || 8080;
+const port = 8080;
 const host = require('os').hostname();
 const express = require('express');
 const app = express();
