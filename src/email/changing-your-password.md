@@ -1,5 +1,3 @@
-
-
 ---
 title: 2. Change Password
 ---

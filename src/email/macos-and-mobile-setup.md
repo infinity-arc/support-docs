@@ -1,4 +1,3 @@
-
 ---
 title: 3. Mobile and Mac Setup
 ---

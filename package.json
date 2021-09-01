@@ -14,7 +14,7 @@
     "build": "NODE_ENV=production;vuepress build src",
     "serve": "NODE_ENV=production;node server",
     "submit": "gcloud builds submit",
-    "copy-files":"cp -r ./src/.vuepress/dist/* ./docs/"
+    "copy-files": "cp -r ./src/.vuepress/dist/* ./docs/"
   },
   "license": "MIT",
   "dependencies": {
