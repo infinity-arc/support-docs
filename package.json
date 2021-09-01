@@ -10,7 +10,7 @@
   "repository": "https://InfinityArc@dev.azure.com/InfinityArc/Library/_git/Library/support-pages",
   "scripts": {
     "prestart": "node ./utils/move-assets.js",
-    "start": "vuepress dev src",
+    "start": "NODE_ENV=production; vuepress dev src",
     "build:vuepress": "NODE_ENV=production;vuepress build src",
     "build": "NODE_ENV=production;vuepress build src",
     "serve":"NODE_ENV=production;node server",

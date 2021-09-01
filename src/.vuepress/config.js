@@ -43,35 +43,23 @@ const config = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     searchPlaceholder: 'Search for something',
     logo: 'https://cdn.softwarecraft.co.za/assets/ia/ia-3d-black075.png',
     nav: [
-      // ...makeNav(),
-      // {
-      //   text: 'Index',
-      //   link: '/guide/',
-      // },
+
       // {
       //   text: 'Email',
       //   link: '/email/'
       // },
-      {
-        text: 'Welcome',
-        link: '/welcome/'
-      },
-      {
-        text: 'Email',
-        link: '/email/'
-      },
-      {
-        text: 'Next Cloud',
-        link: '/next-cloud/'
-      },
-      {
-        text: 'Contact Us',
-        link: '/contact-us/'
-      },
+      // {
+      //   text: 'Next-Cloud',
+      //   link: '/next-cloud/'
+      // },
+      // {
+      //   text: 'Contact Us',
+      //   link: '/contact-us/'
+      // },
       {
         text: 'Website',
         link: 'http://www.infinityarc.net'
@@ -81,12 +69,16 @@ const config = {
         link: 'https://policies.infinityarc.net/privac'
       }
     ],
-    sidebar: {
-      '/email/': [
-        '',      /* /bar/ */
-        'three', /* /bar/three.html */
-        'four'   /* /bar/four.html */
-      ],
+    // sidebar: {
+    //   '/email/': [
+    //     '',
+    //     '/email/',
+    //     '/email/2.first-time-signin.html',
+    //     '/email/2.changing-your-password.html',
+    //     '/email/3.macos-and-mobile-setup.html',
+    //     '/email/1.what-is-webmail.html',
+    //     '/email/5.windows-desktop-setup.html' /* /bar/four.html */
+    //   ]
     //   '/guide/': [
     //     {
     //       title: 'Guide',
@@ -98,7 +90,7 @@ const config = {
     //     }
     //   ],
     //   '/email/': [{title: 'Email' , children:['changing-your-password.md']}]
-    },
+    // }
 
   },
 
@@ -108,6 +100,7 @@ const config = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-smooth-scroll'
   ]
 }
 
