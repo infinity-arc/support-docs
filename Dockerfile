@@ -9,9 +9,9 @@ RUN yarn install
 # Copy all rest
 COPY . .
 # Run build
-RUN yarn run build
+RUN npm run build
 RUN ls -al
 # Confirm dir set 
 # Start serving
 EXPOSE 8080
-CMD yarn run serve
+CMD npm run serve
