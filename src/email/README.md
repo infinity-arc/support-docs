@@ -11,6 +11,6 @@ Support pages on how to use Infinity Arc Webmail and instructions on how to conf
 
 
 
-<img style="max-width: 20vw" src="https://cdn.softwarecraft.co.za/assets/support-docs/email/enverlop-hover.png"/>
+<img style="max-width: 20vw" src="/enverlop-hover.png"/>
 
 
