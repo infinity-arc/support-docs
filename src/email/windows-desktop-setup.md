@@ -1,5 +1,5 @@
 ---
-title: 4. Email on Windows
+title: 5. Email on Windows
 ---
 
 # Windows Setup

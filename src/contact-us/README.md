@@ -21,7 +21,7 @@ if you do not wish to provide the detail below please feel free to send us an em
 <form class="text-center" action="/contact-us/post-server" method="GET" ><br>
     <div class="d-flex flex-row-reverse justify-content-between">
         <div class="text-center">
-            <img class="w-50" src="https://cdn.softwarecraft.co.za/assets/ia/IA_shortlogo_white_whitebg05x.png">
+            <img class="w-50" src="/IA_shortlogo_white_whitebg-05x.png">
         </div>
         <div class="d-block w-75">
             <div class="col">

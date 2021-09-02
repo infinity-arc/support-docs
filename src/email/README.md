@@ -1,6 +1,6 @@
 # Infinity Arc Email
 
-If Infinity Arc has registered your domain and you are looking to get started with email you are now in the right place. Please click the link below.
+If Infinity Arc has registered your domain and you are looking to get started with email, you are now in the right place. Please click the link below.
 
 - [Sign-in in for the first time please](./first-time-signin) 
 
