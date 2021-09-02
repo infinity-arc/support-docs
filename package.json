@@ -14,7 +14,7 @@
     "build": "NODE_ENV=production;vuepress build src",
     "serve": "NODE_ENV=production;node server",
     "submit": "gcloud builds submit",
-    "copy-files":"cp -r ./src/.vuepress/dist/* ./docs/"
+    "copy-files": "cp -r ./src/.vuepress/dist/* ./docs/"
   },
   "license": "MIT",
   "dependencies": {
@@ -24,6 +24,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "vuepress": "^1.8.2",
     "vuepress-theme-book": "^0.0.6"
   }
