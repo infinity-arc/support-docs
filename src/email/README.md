@@ -1,6 +1,6 @@
 # Infinity Arc Email
 
-If Infinity Arc has registered your domain and you are looking to get started with email you are now in the right place. Please click the link below.
+If Infinity Arc has registered your domain and you are looking to get started with email, you are now in the right place. Please click the link below.
 
 - [Sign-in in for the first time please](./first-time-signin) 
 
@@ -11,6 +11,6 @@ Support pages on how to use Infinity Arc Webmail and instructions on how to conf
 
 
 
-<img style="max-width: 20vw" src="https://cdn.softwarecraft.co.za/assets/support-docs/email/enverlop-hover.png"/>
+<img style="max-width: 20vw" src="/enverlop-hover.png"/>
 
 
