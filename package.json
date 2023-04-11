@@ -20,7 +20,7 @@
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "applicationinsights": "^2.1.5",
+    "applicationinsights": "^2.4.0",
     "express": "^4.17.3"
   },
   "devDependencies": {
